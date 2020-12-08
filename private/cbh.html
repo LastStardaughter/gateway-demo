@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+</head>
+<body>
+<nav>
+    Paste statsheet or hand into this box: <form onsubmit="main(event)"><input type=text id="input">
+    <button class="btn waves-effect waves-light" type="submit" name="action">Get Cards</button></form><br />
+    Enter card name: <form onsubmit="getOne(event)"><input type=text id="oneInput">
+    <button class="btn waves-effect waves-light" type="submit" name="action">Lookup Card</button></form>
+    <form onsubmit="getJSON(event)"><input type=text id="JSONInput">
+    <button class="btn waves-effect waves-light" type="submit" name="action">Lookup JSON</button></form>
+</nav>
+<div id="hand"></div>
+</body>
+</html>

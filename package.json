@@ -1,0 +1,22 @@
+{
+  "name": "project-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Scottbert85/project-gateway.git"
+  },
+  "author": "Scott Hackman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scottbert85/project-gateway/issues"
+  },
+  "homepage": "https://github.com/Scottbert85/project-gateway#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
