@@ -12,6 +12,7 @@ const nasa = require("./routes/nasa");
 app.use("/", express.static("public"));
 app.use("/login", login);
 app.use("/weather", weather);
+app.use("/cards", cards);
 app.use("/nasa", nasa);
 
 const port = 8080;

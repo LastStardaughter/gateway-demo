@@ -8,7 +8,7 @@ router.get("/page", async (req, res) => {
     console.log("Request to load weather page");
     try {
       let html={
-          panel1: fs.readFileSync("./private/weather.html").toString(),
+          panel1: fs.readFileSync("./private/weather.html").toString()
       }
       res.status(200).json(html);
     } catch (err) {
